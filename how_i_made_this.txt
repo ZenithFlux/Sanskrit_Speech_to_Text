@@ -1,0 +1,17 @@
+1- created a virtual python environment for sanskrit STT named "sktSTTenv".
+
+2- downloaded .whl file of pocketsphinx from https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+3- installed 'pocketsphinx-0.1.15-cp39-cp39-win_amd64.whl' file in sktSTTenv.
+
+4- wrote plugin.py
+
+5- downloaded SRILM.
+
+6- installed cygwin.
+
+7- installed SRILM in cygwin. Installation help taken from "https://hovinh.github.io/blog/2015-12-22-install-srilm-windows/". Author of the guide has mistakenly written 'cygwin' as 'cyqwin' many times. Also replace "export PATH=$PATH:$pwd:$SRILM/bin/cygwin" in the guide with "export PATH=$PATH:$SRILM/bin:$SRILM/bin/cygwin64".
+
+8- downloaded sanskrit corpus. Made a 'cleaner.py' script to clean the text.
+
+9- created language model using SRILM. Guide - https://cmusphinx.github.io/wiki/tutoriallm/

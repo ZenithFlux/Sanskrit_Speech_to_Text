@@ -1,0 +1,6 @@
+# Don't upload these files to git repository
+
+/data
+/development_apps
+/misc_files
+/sktSTTenv
